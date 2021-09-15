@@ -1,6 +1,6 @@
 {
   "name": "interpretation-app",
-  "version": "31.0.0",
+  "version": "0.1.29",
   "description": "Interpretations app",
   "main": "src/index.html",
   "scripts": {
@@ -9,7 +9,7 @@
     "start": "webpack-dev-server --config webpack.dev.config.js",
     "prebuild": "rm -rf build",
     "build": "webpack --config webpack.prod.config.js && yarn manifest",
-    "postbuild": "cp -r  ./src/images icon.png ./src/index.html ./src/chart.js ./src/manifest.webapp ./package.json build/",
+    "postbuild": "cp -r  ./src/images icon.png ./src/index.html ./src/chart.js ./src/reporttable.js ./src/manifest.webapp ./package.json build/",
     "lint": "eslint --fix src && ./node_modules/eslint/bin/eslint.js --env node,mocha --global expect,sinon,spy,stub --rule 'no-unused-expressions: 0' test && scss-lint"
   },
   "keywords": [
