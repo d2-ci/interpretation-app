@@ -23,7 +23,7 @@
     "@dhis2/d2-ui-rich-text": "^7.0.5",
     "@rxjs/rx": "4.1.0",
     "ckeditor": "^4.11.3",
-    "jquery": "2.2.3",
+    "jquery": "3.5.0",
     "prop-types": "15.5.4",
     "react": "0.14.9",
     "react-dom": "0.14.9",
